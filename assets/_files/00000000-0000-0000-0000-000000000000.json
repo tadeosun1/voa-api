@@ -1,0 +1,35 @@
+{
+  "Empty NTC": {
+    "ID": "00000000-0000-0000-0000-000000000000",
+    "name" : "EmptyNTC",
+    "SerializableType": "Default",
+    "b": [
+      {
+        "t": "Voa.Session",
+        "y": "f8ee769f-9d2a-4ef6-be20-0421d5829d23",
+        "z": "00000000-0000-0000-0000-000000000000",
+        "a": "Empty NTC",
+        "b": "NTC",
+        "c": 0,
+        "d": [],
+        "e": [
+          {
+            "a": {
+              "n": "Empty Plan",
+              "t": "Voa.Plan",
+              "_F": "0117c839-276c-4df1-8915-204d316a1134"
+            }
+          }
+        ]
+      }
+    ],
+    "c": [
+      {
+        "Plan 2021-09-27-18-06-32": {
+          "n": "Plan 2021-09-27-18-06-32",
+          "_F": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"
+        }
+      }
+    ]
+  }
+}

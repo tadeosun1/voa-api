@@ -1,0 +1,103 @@
+{
+  "Plan 2021-09-27-18-06-32": {
+    "ID": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "name": "EmptyPlan",
+    "b": [
+      {
+        "t": "Voa.Plan",
+        "y": "0117c839-276c-4df1-8915-204d316a1134",
+        "z": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+        "a": "Plan 2021-09-27-18-06-32",
+        "b": "fbde4bca-5097-41f4-8022-47e054fe5505",
+        "c": "9a7b9122-5926-4dca-8154-66e591a81e8b",
+        "d": [
+          "11111111-1111-1111-1111-111111111111",
+          "22222222-2222-2222-2222-222222222222"
+        ],
+        "e": [],
+        "f": [],
+        "g": "6ce1f5c4-9c36-471c-9da2-b040ba254932"
+      }
+    ],
+    "c": [
+      {
+        "AARStream": {
+          "n": "AARStream",
+          "_F": "ssssssss-ssss-ssss-ssss-ssssssssssss"
+        }
+      },
+      {
+        "BLUFOR": {
+          "ID": "58493882-24c2-4e10-92d4-357d75d08660",
+          "b": [
+            {
+              "t": "ThreatTec.AI.AIGroup",
+              "y": "fbde4bca-5097-41f4-8022-47e054fe5505",
+              "z": "e9214d2b-e005-4e17-b7a8-c864d409f3ae",
+              "a": "9a7b9122-5926-4dca-8154-66e591a81e8b",
+              "b": {},
+              "c": -1.0
+            }
+          ],
+          "c": []
+        }
+      },
+      {
+        "OPFOR": {
+          "ID": "6399e6ac-a727-41fe-92c1-d62d0c9ed3dd",
+          "b": [
+            {
+              "t": "ThreatTec.AI.AIGroup",
+              "y": "9a7b9122-5926-4dca-8154-66e591a81e8b",
+              "z": "01f26cd4-da15-4240-8237-b96e383b159a",
+              "a": "fbde4bca-5097-41f4-8022-47e054fe5505",
+              "b": {},
+              "c": -1.0
+            }
+          ],
+          "c": []
+        }
+      },
+      {
+        "BLUFOR Units": {
+          "ID": "d2d4fb1d-0ce7-43db-99c0-9d3fe00e70d7",
+          "b": [
+            {
+              "t": "Voa.Overlay",
+              "y": "11111111-1111-1111-1111-111111111111",
+              "z": "1ae3b9fb-662d-48df-bbaa-f6925c45df84",
+              "a": "BLUFOR Units",
+              "b": "BLUFOR",
+              "c": "Selectable, Hidable, Lockable, Copyable",
+              "d": [],
+              "e": true,
+              "f": false,
+              "g": false
+            }
+          ],
+          "c": []
+        }
+      },
+      {
+        "OPFOR Units": {
+          "ID": "d23de775-cfbd-43d4-bf5d-112e1a9395c6",
+          "b": [
+            {
+              "t": "Voa.Overlay",
+              "y": "22222222-2222-2222-2222-222222222222",
+              "z": "183fd46f-467e-4e0c-a5b1-c3089e216c57",
+              "a": "OPFOR Units",
+              "b": "OPFOR",
+              "c": "Selectable, Hidable, Lockable, Copyable",
+              "d": [],
+              "e": true,
+              "f": false,
+              "g": false
+            }
+          ],
+          "c": []
+        }
+      }
+    ]
+  }
+}

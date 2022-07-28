@@ -1,0 +1,812 @@
+ [
+        {
+            "nameId": "General Maneuver Points",
+            "templates": [
+                {
+                    "nameId": "ElectroMagnetic",
+                    "displayName": "Electro Magnetic",
+                    "symbolCode": "G*CPMGPFE---"
+                },
+                {
+                    "nameId": "Acoustic",
+                    "displayName": "Acoustic",
+                    "symbolCode": "G*CPMGPFA---"
+                },
+                {
+                    "nameId": "ElectroOptical",
+                    "displayName": "Electro-Optical",
+                    "symbolCode": "G*CPMGPFO---"
+                },
+                {
+                    "nameId": "POI",
+                    "displayName": "Point of Interest",
+                    "symbolCode": "G*CPMGPI----"
+                }
+            ]
+        },
+        {
+            "nameId": "Aviation Points",
+            "templates": [
+                {
+                    "nameId": "ACP",
+                    "displayName": "Air Control Point",
+                    "symbolCode": "G*CPMAAP----"
+                },
+                {
+                    "nameId": "CommCheckPoint",
+                    "displayName": "Communications Check Point",
+                    "symbolCode": "G*CPMAAC----"
+                },
+                {
+                    "nameId": "PopupPoint",
+                    "displayName": "Popup Point",
+                    "symbolCode": "G*CPMAAU----"
+                },
+                {
+                    "nameId": "DownedAircrewPUPoint",
+                    "displayName": "Downed Aircrew Pick Up Point",
+                    "symbolCode": "G*CPMAAD----"
+                }
+            ]
+        },
+        {
+            "nameId": "Deception Graphics",
+            "templates": [
+                {
+                    "nameId": "DummyMineField",
+                    "displayName": "Dummy Mine Field",
+                    "symbolCode": "G*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              CPMDN-----"
+                }
+            ]
+        },
+        {
+            "nameId": "Defense Point Graphics",
+            "templates": [
+                {
+                    "nameId": "TRP",
+                    "displayName": "Target Reference Point",
+                    "symbolCode": "G*CPMMPT----"
+                },
+                {
+                    "nameId": "FOP",
+                    "displayName": "Forward Observation Post",
+                    "symbolCode": "G*CPMMPOF---"
+                },
+                {
+                    "nameId": "Observation Post",
+                    "displayName": "Observation Post",
+                    "symbolCode": "G*CPMMPO----"
+                },
+                {
+                    "nameId": "Combat OutPost",
+                    "displayName": "Combat OutPost",
+                    "symbolCode": "G*CPMMPOC---"
+                },
+                {
+                    "nameId": "Observation Post Occupied By Scouts",
+                    "displayName": "Observation Post Occupied By Scouts",
+                    "symbolCode": "G*CPMMPOR---"
+                },
+                {
+                    "nameId": "Sensor Outpost",
+                    "displayName": "Sensor OutPost",
+                    "symbolCode": "G*CPMMPOS---"
+                },
+                {
+                    "nameId": "CRBN Observation Post",
+                    "displayName": "Sensor OutPost",
+                    "symbolCode": "G*CPMMPON---"
+                }
+            ]
+        },
+        {
+            "nameId": "Obstacles",
+            "templates": [
+                {
+                    "nameId": "Antitank Obstacle",
+                    "displayName": "Antitank Obstacle",
+                    "symbolCode": "G*CPBOATD---"
+                },
+                {
+                    "nameId": "Booby Trap",
+                    "displayName": "Booby Trap",
+                    "symbolCode": "G*CPBOAB----"
+                },
+                {
+                    "nameId": "AntiPersonnel Mine",
+                    "displayName": "AntiPersonnel Mine",
+                    "symbolCode": "G*CPBOAMA---"
+                },
+                {
+                    "nameId": "AntiTank Mine",
+                    "displayName": "AntiTank Mine",
+                    "symbolCode": "G*CPBOAMT---"
+                },
+                {
+                    "nameId": "AntiTank Mine with AntiHandling Device",
+                    "displayName": "AntiTank Mine with AntiHandling Device",
+                    "symbolCode": "G*CPBOAMD---"
+                },
+                {
+                    "nameId": "AntiTank Mine Claymore",
+                    "displayName": "AntiTank Mine Claymore",
+                    "symbolCode": "G*CPBOAMC---"
+                },
+                {
+                    "nameId": "Unspecified Mine",
+                    "displayName": "Unspecified Mine",
+                    "symbolCode": "G*CPBOAMU---"
+                },
+                {
+                    "nameId": "Wide Area Mine",
+                    "displayName": "Wide Area Mine",
+                    "symbolCode": "G*CPBOAMW---"
+                },
+                {
+                    "nameId": "Planned Minefield",
+                    "displayName": "Planned Minefield",
+                    "symbolCode": "G*CPBOAIP---"
+                },
+                {
+                    "nameId": "Completed Minefield",
+                    "displayName": "Completed Minefield",
+                    "symbolCode": "G*CPBOAIC---"
+                },
+                {
+                    "nameId": "Antitank Minefield",
+                    "displayName": "Antitank Minefield",
+                    "symbolCode": "G*CPBOAIN---"
+                },
+                {
+                    "nameId": "Scatterable Mines",
+                    "displayName": "Scatterable Mines",
+                    "symbolCode": "G*CPBOAIS---"
+                },
+                {
+                    "nameId": "AntiPersonnel Minefield",
+                    "displayName": "AntiPersonnel Minefield",
+                    "symbolCode": "G*CPBOAIH---"
+                },
+                {
+                    "nameId": "Scatterable Minefield",
+                    "displayName": "Scatterable Minefield",
+                    "symbolCode": "G*CPBOAID---"
+                },
+                {
+                    "nameId": "Executed Volcano Minefield",
+                    "displayName": "Executed Volcano Minefield",
+                    "symbolCode": "G*CPBOAIV---"
+                }
+            ]
+        },
+        {
+            "nameId": "Survivability",
+            "templates": [
+                {
+                    "nameId": "Earthwork, Small Trench",
+                    "displayName": "Earthwork, Small Trench",
+                    "symbolCode": "G*CPBSE-----"
+                },
+                {
+                    "nameId": "Fort",
+                    "displayName": "Fort",
+                    "symbolCode": "G*CPBSF-----"
+                },
+                {
+                    "nameId": "Surface Shelter",
+                    "displayName": "Surface Shelter",
+                    "symbolCode": "G*CPBSH-----"
+                },
+                {
+                    "nameId": "Underground Shelter",
+                    "displayName": "Underground Shelter",
+                    "symbolCode": "G*CPBSU-----"
+                }
+            ]
+        },
+        {
+            "nameId": "CBRNE",
+            "templates": [
+                {
+                    "nameId": "Nuclear Detonations Friendly Ground Zero",
+                    "displayName": "Nuclear Detonations Friendly Ground Zero",
+                    "symbolCode": "G*CPBWN-----"
+                },
+                {
+                    "nameId": "Enemy Known Ground Zero",
+                    "displayName": "Enemy Known Ground Zero",
+                    "symbolCode": "G*CPBWE-----"
+                },
+                {
+                    "nameId": "Enemy Templated",
+                    "displayName": "Enemy Templated",
+                    "symbolCode": "G*CPBWI-----"
+                },
+                {
+                    "nameId": "Friendly Planned or On Order",
+                    "displayName": "Friendly Planned or On Order",
+                    "symbolCode": "G*CPBWN-----"
+                },
+                {
+                    "nameId": "Nuclear Detonations Friendly Ground Zero",
+                    "displayName": "Nuclear Detonations Friendly Ground Zero",
+                    "symbolCode": "G*CPBWF-----"
+                },
+                {
+                    "nameId": "Fallout Producing",
+                    "displayName": "Fallout Producing",
+                    "symbolCode": "G*CPBWP-----"
+                },
+                {
+                    "nameId": "Decontamination Point",
+                    "displayName": "Decontamination Point",
+                    "symbolCode": "G*CPBWDP----"
+                },
+                {
+                    "nameId": "Alternate Decon Point",
+                    "displayName": "Alternate Decon Point",
+                    "symbolCode": "G*CPBWDA----"
+                },
+                {
+                    "nameId": "Troop Decon Point",
+                    "displayName": "Troop Decon Point",
+                    "symbolCode": "G*CPBWDT----"
+                },
+                {
+                    "nameId": "Equipment Decon Point",
+                    "displayName": "Equipment Decon Point",
+                    "symbolCode": "G*CPBWDE----"
+                },
+                {
+                    "nameId": "Equipment and Troop Decon Point",
+                    "displayName": "Equipment and Troop Decon Point",
+                    "symbolCode": "G*CPBWDS----"
+                },
+                {
+                    "nameId": "Operational Decon Point",
+                    "displayName": "Operational Decon Point",
+                    "symbolCode": "G*CPBWDO----"
+                },
+                {
+                    "nameId": "Thorough Decon Point",
+                    "displayName": "Thorough Decon Point",
+                    "symbolCode": "G*CPBWDG----"
+                },
+                {
+                    "nameId": "Main Equipment Decon Point",
+                    "displayName": "Main Equipment Decon Point",
+                    "symbolCode": "G*CPBWDEM---"
+                },
+                {
+                    "nameId": "Forward Troop Decon Point",
+                    "displayName": "Forward Troop Decon Point",
+                    "symbolCode": "G*CPBWDTF---"
+                }
+            ]
+        },
+        {
+            "nameId": "Fire Support",
+            "templates": [
+                {
+                    "nameId": "FSP",
+                    "displayName": "Fire Support Point/ Single Target",
+                    "symbolCode": "G*CPFSTP----"
+                },
+                {
+                    "nameId": "Fire Support Station",
+                    "displayName": "Fire Support Station",
+                    "symbolCode": "G*CPFSS----"
+                },
+                {
+                    "nameId": "Nuclear Target",
+                    "displayName": "Nuclear Target",
+                    "symbolCode": "G*CPFAU-----"
+                }
+            ]
+        },
+        {
+            "nameId": "Combat Service Support",
+            "templates": [
+                {
+                    "nameId": "Ambulance Exchange Point",
+                    "displayName": "Ambulance Exchange Point",
+                    "symbolCode": "G*CPSPA-----"
+                },
+                {
+                    "nameId": "Cannibalization Point",
+                    "displayName": "Cannibalization Point",
+                    "symbolCode": "G*CPSPC-----"
+                },
+                {
+                    "nameId": "Casualty Collection Point",
+                    "displayName": "Casualty Collection Point",
+                    "symbolCode": "G*CPSPY-----"
+                },
+                {
+                    "nameId": "Civilian Collection Point",
+                    "displayName": "Civilian Collection Point",
+                    "symbolCode": "G*CPSPT-----"
+                },
+                {
+                    "nameId": "Detainee Collection Point",
+                    "displayName": "Detainee Collection Point",
+                    "symbolCode": "G*CPSPD-----"
+                },
+                {
+                    "nameId": "EPW Collection Point",
+                    "displayName": "EPW Collection Point",
+                    "symbolCode": "G*CPSPE-----"
+                },
+                {
+                    "nameId": "Logistics Release Point",
+                    "displayName": "Logistics Release Point",
+                    "symbolCode": "G*CPSPL-----"
+                },
+                {
+                    "nameId": "Maintenance Collection Point",
+                    "displayName": "Maintenance Collection Point",
+                    "symbolCode": "G*CPSPM-----"
+                },
+                {
+                    "nameId": "Re-supply Point",
+                    "displayName": "Re-supply Point",
+                    "symbolCode": "G*CPSPR-----"
+                },
+                {
+                    "nameId": "ROM Point",
+                    "displayName": "Refuel on the Move Point",
+                    "symbolCode": "G*CPSPU-----"
+                },
+                {
+                    "nameId": "Traffic Control Post",
+                    "displayName": "Traffic Control Post",
+                    "symbolCode": "G*CPSPO-----"
+                },
+                {
+                    "nameId": "Trailer Transfer Point",
+                    "displayName": "Trailer Transfer Point",
+                    "symbolCode": "G*CPSPI-----"
+                },
+                {
+                    "nameId": "Unit Maintenance Collection Point",
+                    "displayName": "Unit Maintenance Collection Point",
+                    "symbolCode": "G*CPSPN-----"
+                },
+                {
+                    "nameId": "General Supply Point",
+                    "displayName": "General Supply Point",
+                    "symbolCode": "G*CPSPQT----"
+                },
+                {
+                    "nameId": "Class I",
+                    "displayName": "Class I",
+                    "symbolCode": "G*CPSPQA----"
+                },
+                {
+                    "nameId": "Class II",
+                    "displayName": "Class II",
+                    "symbolCode": "G*CPSPQB----"
+                },
+                {
+                    "nameId": "Class III",
+                    "displayName": "Class III",
+                    "symbolCode": "G*CPSPQC----"
+                },
+                {
+                    "nameId": "Class IV",
+                    "displayName": "Class IV",
+                    "symbolCode": "G*CPSPQD----"
+                },
+                {
+                    "nameId": "Class V",
+                    "displayName": "Class V",
+                    "symbolCode": "G*CPSPQE----"
+                },
+                {
+                    "nameId": "Class VI",
+                    "displayName": "Class VI",
+                    "symbolCode": "G*CPSPQF----"
+                },
+                {
+                    "nameId": "Class VII",
+                    "displayName": "Class VII",
+                    "symbolCode": "G*CPSPQG----"
+                },
+                {
+                    "nameId": "Class VIII",
+                    "displayName": "Class VIII",
+                    "symbolCode": "G*CPSPQH----"
+                },
+                {
+                    "nameId": "Class IX",
+                    "displayName": "Class IX",
+                    "symbolCode": "G*CPSPQI----"
+                },
+                {
+                    "nameId": "Class X",
+                    "displayName": "Class X",
+                    "symbolCode": "G*CPSPQJ----"
+                },
+                {
+                    "nameId": "Ammunition Point",
+                    "displayName": "Ammunition Point",
+                    "symbolCode": "G*CPSPM-----"
+                },
+                {
+                    "nameId": "Ammunition Supply Point",
+                    "displayName": "Ammunition Supply Point",
+                    "symbolCode": "G*CPSPMA----"
+                },
+                {
+                    "nameId": "Ammunition Transfer Point",
+                    "displayName": "Ammunition Transfer Point",
+                    "symbolCode": "GFCPSPMT----"
+                }
+            ]
+        },
+        {
+            "nameId": "Command and Control",
+            "templates": [
+                {
+                    "nameId": "CHECKPOINT",
+                    "displayName": "Check Point",
+                    "symbolCode": "G*CPOGC-----"
+                },
+                {
+                    "nameId": "STARTPOINT",
+                    "displayName": "Start Point",
+                    "symbolCode": "G*CPOGI-----"
+                },
+                {
+                    "nameId": "Special Point",
+                    "displayName": "Special Point",
+                    "symbolCode": "G*CPOX------"
+                },
+                {
+                    "nameId": "Nav Reference",
+                    "displayName": "Nav Reference",
+                    "symbolCode": "GFCPOXRN----"
+                },
+                {
+                    "nameId": "DLRP",
+                    "displayName": "DLRP",
+                    "symbolCode": "GFCPOXRD----"
+                },
+                {
+                    "nameId": "Underwater Datum",
+                    "displayName": "Underwater Datum",
+                    "symbolCode": "G*CPOXUD----"
+                },
+                {
+                    "nameId": "Underwater Brief Contact",
+                    "displayName": "Underwater Brief Contact",
+                    "symbolCode": "GFCPOXUB----"
+                },
+                {
+                    "nameId": "Underwater Lost Contact",
+                    "displayName": "Underwater Lost Contact",
+                    "symbolCode": "G*CPOXUL----"
+                },
+                {
+                    "nameId": "Underwater Sinker",
+                    "displayName": "Underwater Sinker",
+                    "symbolCode": "G*CPOXUS----"
+                },
+                {
+                    "nameId": "Weapon Aim Point",
+                    "displayName": "Weapon Aim Point",
+                    "symbolCode": "G*CPOXWA----"
+                },
+                {
+                    "nameId": "Weapon Drop Point",
+                    "displayName": "Weapon Drop Point",
+                    "symbolCode": "G*CPOXWD----"
+                },
+                {
+                    "nameId": "Weapon Entry Point",
+                    "displayName": "weapon Entry Point",
+                    "symbolCode": "G*CPOXWE----"
+                },
+                {
+                    "nameId": "Weapon Ground Zero",
+                    "displayName": "Weapon Ground Zero",
+                    "symbolCode": "G*CPOXWG----"
+                },
+                {
+                    "nameId": "MSL Select Point",
+                    "displayName": "MSL Select Point",
+                    "symbolCode": "G*CPOXWM----"
+                },
+                {
+                    "nameId": "Impact Point",
+                    "displayName": "Impact Point",
+                    "symbolCode": "G*CPOXWI----"
+                },
+                {
+                    "nameId": "Predicted Impact Point",
+                    "displayName": "Predicted Impact Point",
+                    "symbolCode": "G*CPOXWP----"
+                },
+                {
+                    "nameId": "Sonobouy",
+                    "displayName": "Sonobouy",
+                    "symbolCode": "G*CPOXY-----"
+                },
+                {
+                    "nameId": "Sonobouy Pattern Center",
+                    "displayName": "Sonobouy Pattern Center",
+                    "symbolCode": "G*CPOXYP----"
+                },
+                {
+                    "nameId": "Sonobouy Difar",
+                    "displayName": "Sonobouy Difar",
+                    "symbolCode": "G*CPOXYD----"
+                },
+                {
+                    "nameId": "Sonobouy Lofar",
+                    "displayName": "Sonobouy Lofar",
+                    "symbolCode": "G*CPOXYL----"
+                },
+                {
+                    "nameId": "Sonobouy Cass",
+                    "displayName": "Sonobouy Cass",
+                    "symbolCode": "G*CPOXYC----"
+                },
+                {
+                    "nameId": "Sonobouy Dicass",
+                    "displayName": "Sonobouy Dicass",
+                    "symbolCode": "G*CPOXYS----"
+                },
+                {
+                    "nameId": "Sonobouy DT",
+                    "displayName": "Sonobouy DT",
+                    "symbolCode": "G*CPOXYB----"
+                },
+                {
+                    "nameId": "Sonobouy ANM",
+                    "displayName": "Sonobouy ANM",
+                    "symbolCode": "G*CPOXYA----"
+                },
+                {
+                    "nameId": "Sonobouy VLAD",
+                    "displayName": "Sonobouy VLAD",
+                    "symbolCode": "G*CPOXYV----"
+                },
+                {
+                    "nameId": "Sonobouy ATAC",
+                    "displayName": "Sonobouy ATAC",
+                    "symbolCode": "G*CPOXYT----"
+                },
+                {
+                    "nameId": "Sonobouy RO",
+                    "displayName": "Sonobouy RO",
+                    "symbolCode": "G*CPOXYR----"
+                },
+                {
+                    "nameId": "Sonobouy Kingpin",
+                    "displayName": "Sonobouy Kingpin",
+                    "symbolCode": "G*CPOXYK----"
+                },
+                {
+                    "nameId": "Formation",
+                    "displayName": "Formation",
+                    "symbolCode": "G*CPOXN-----"
+                },
+                {
+                    "nameId": "Harbour",
+                    "displayName": "Harbour",
+                    "symbolCode": "G*CPOXH-----"
+                },
+                {
+                    "nameId": "Harbour Point Q",
+                    "displayName": "Harbour Point Q",
+                    "symbolCode": "G*CPOXHQ----"
+                },
+                {
+                    "nameId": "Harbour Point A",
+                    "displayName": "Harbour Point A",
+                    "symbolCode": "G*CPOXHA----"
+                },
+                {
+                    "nameId": "Harbour Point Y",
+                    "displayName": "Harbour Point Y",
+                    "symbolCode": "G*CPOXHY----"
+                },
+                {
+                    "nameId": "Harbour Point X",
+                    "displayName": "Harbour Point X",
+                    "symbolCode": "G*CPOXHX----"
+                },
+                {
+                    "nameId": "Route",
+                    "displayName": "Route",
+                    "symbolCode": "G*CPOXR-----"
+                },
+                {
+                    "nameId": "Rendezvous",
+                    "displayName": "Rendezvous",
+                    "symbolCode": "G*CPOXRR----"
+                },
+                {
+                    "nameId": "Diversions",
+                    "displayName": "Diversions",
+                    "symbolCode": "GFCPOXRD----"
+                },
+                {
+                    "nameId": "Waypoint",
+                    "displayName": "Waypoint",
+                    "symbolCode": "G*CPOXRW----"
+                },
+                {
+                    "nameId": "PIM",
+                    "displayName": "PIM",
+                    "symbolCode": "G*CPOXRP----"
+                },
+                {
+                    "nameId": "Point R",
+                    "displayName": "Point R",
+                    "symbolCode": "G*CPOXRT----"
+                },
+                {
+                    "nameId": "Combatant Station",
+                    "displayName": "Combatant Station",
+                    "symbolCode": "G*CPOXSTC---"
+                },
+                {
+                    "nameId": "Picket Station",
+                    "displayName": "Picket Station",
+                    "symbolCode": "G*CPOXSTCP--"
+                },
+                {
+                    "nameId": "AWS Ship Station",
+                    "displayName": "AWS Ship Station",
+                    "symbolCode": "G*CPOXSTCA-"
+                },
+                {
+                    "nameId": "RAS Station",
+                    "displayName": "Replenishment At Sea Station",
+                    "symbolCode": "G*CPOXSTR---"
+                },
+                {
+                    "nameId": "Rescue Station",
+                    "displayName": "Rescue Station",
+                    "symbolCode": "G*CPOXSTH---"
+                },
+                {
+                    "nameId": "Submarine Station",
+                    "displayName": "Submarine Station",
+                    "symbolCode": "G*CPOXSTS---"
+                },
+                {
+                    "nameId": "AWS Submarine Station",
+                    "displayName": "AWS Submarine Station",
+                    "symbolCode": "G*CPOXSTSA--"
+                },
+                {
+                    "nameId": "Search",
+                    "displayName": "Search",
+                    "symbolCode": "G*CPOXS-----"
+                },
+                {
+                    "nameId": "Search Area",
+                    "displayName": "Search Area",
+                    "symbolCode": "G*CPOXSA----"
+                },
+                {
+                    "nameId": "DIP Position",
+                    "displayName": "DIP Position",
+                    "symbolCode": "G*CPOXSD----"
+                },
+                {
+                    "nameId": "Search Center",
+                    "displayName": "Search Center",
+                    "symbolCode": "G*CPOXSC----"
+                },
+                {
+                    "nameId": "CAP",
+                    "displayName": "Combat Air Patrol",
+                    "symbolCode": "G*CPOXAC----"
+                },
+                {
+                    "nameId": "AEW",
+                    "displayName": "Airborne Early Warning",
+                    "symbolCode": "G*CPOXAA----"
+                },
+                {
+                    "nameId": "TACAN",
+                    "displayName": "TACAN",
+                    "symbolCode": "G*CPOXAT----"
+                },
+                {
+                    "nameId": "Air Control Tanking",
+                    "displayName": "Air Control Tanking",
+                    "symbolCode": "G*CPOXAK----"
+                },
+                {
+                    "nameId": "Anti Submarine Warfare Fixed Wing",
+                    "displayName": "Anti Submarine Warfare Fixed Wing",
+                    "symbolCode": "G*CPOXAF----"
+                },
+                {
+                    "nameId": "Anti Submarine Warfare Rotary",
+                    "displayName": "Anti Submarine Warfare Rotary",
+                    "symbolCode": "G*CPOXAH----"
+                },
+                {
+                    "nameId": "Air Control TOMCAT",
+                    "displayName": "Air Control TOMCAT",
+                    "symbolCode": "G*CPOXAO----"
+                },
+                {
+                    "nameId": "Air Control Rescue",
+                    "displayName": "Air Control Rescue",
+                    "symbolCode": "G*CPOXAR----"
+                },
+                {
+                    "nameId": "Air Control Replenish",
+                    "displayName": "Air Control Replenish",
+                    "symbolCode": "G*CPOXAP----"
+                },
+                {
+                    "nameId": "Air Control Marshall",
+                    "displayName": "Air Control Marshall",
+                    "symbolCode": "G*CPOXAM----"
+                },
+                {
+                    "nameId": "Air Control Strike IP",
+                    "displayName": "Air Control Strike IP",
+                    "symbolCode": "G*CPOXAS----"
+                },
+                {
+                    "nameId": "Air Control Corridor Tab",
+                    "displayName": "Air Control Corridor Tab",
+                    "symbolCode": "G*CPOXAD----"
+                },
+                {
+                    "nameId": "General Command and Control Point",
+                    "displayName": "General Command and Control Point",
+                    "symbolCode": "G*CPOG------"
+                },
+                {
+                    "nameId": "Contact Point",
+                    "displayName": "Contact Point",
+                    "symbolCode": "G*CPOGP-----"
+                },
+                {
+                    "nameId": "Coordination Point",
+                    "displayName": "Coordination Point",
+                    "symbolCode": "G*CPOGT-----"
+                },
+                {
+                    "nameId": "Decision Point",
+                    "displayName": "Decision Point",
+                    "symbolCode": "GFCPOGD-----"
+                },
+                {
+                    "nameId": "LinkUp Point",
+                    "displayName": "LinkUp Point",
+                    "symbolCode": "G*CPOGL-----"
+                },
+                {
+                    "nameId": "Passage Point",
+                    "displayName": "Passage Point",
+                    "symbolCode": "G*CPOGN-----"
+                },
+                {
+                    "nameId": "Rally Point",
+                    "displayName": "Rally Point",
+                    "symbolCode": "G*CPOGR-----"
+                },
+                {
+                    "nameId": "Release Point",
+                    "displayName": "Release Point",
+                    "symbolCode": "G*CPOGS-----"
+                },
+                {
+                    "nameId": "General Way Point",
+                    "displayName": "General Way Point",
+                    "symbolCode": "G*CPOGW-----"
+                }
+            ]
+        }
+    ]

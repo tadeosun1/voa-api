@@ -1,0 +1,15 @@
+{
+  "AARStream": {
+    "ID": "ssssssss-ssss-ssss-ssss-ssssssssssss",
+    "SerializableType": "SerializeToFile",
+    "b": [
+      {
+        "t": "ThreatTec.AAR.AARStream",
+        "y": "6ce1f5c4-9c36-471c-9da2-b040ba254932",
+        "z": "ssssssss-ssss-ssss-ssss-ssssssssssss",
+        "a": []
+      }
+    ],
+    "c": []
+  }
+}

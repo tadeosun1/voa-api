@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>VOA</title>
+    <link rel="shortcut icon" href="icon/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/on-window-resized.js"></script> 
+  </head>
+  <body class="dark">
+    <div id="app-wrapper">
+      <div id="unity-container-size-reference" class="unity-desktop"></div>
+      <div id="unity-container" class="unity-desktop">
+        <canvas id="unity-canvas"></canvas>
+        <div id="loading-cover" style="display:none;">
+          <div id="unity-loading-bar">
+            <div id="unity-logo"><img src="logo.png"></div>
+            <div id="unity-progress-bar-empty" style="display: none;">
+              <div id="unity-progress-bar-full"></div>
+            </div>
+            <div class="spinner"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const minWidth = "800";
+      const minHeight = "600";
+      const resizeDelay = "1000";
+    </script>
+    <script>
+      const buildUrl = "Build";
+      const loaderUrl = buildUrl + "/WebGL.loader.js";
+      const config = {
+        dataUrl: buildUrl + "/WebGL.data",
+        frameworkUrl: buildUrl + "/WebGL.framework.js",
+        codeUrl: buildUrl + "/WebGL.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "VOA",
+        productVersion: "0.1",
+      };
+
+      const container = document.querySelector("#unity-container");
+      const canvas = document.querySelector("#unity-canvas");
+      const loadingCover = document.querySelector("#loading-cover");
+      const progressBarEmpty = document.querySelector("#unity-progress-bar-empty");
+      const progressBarFull = document.querySelector("#unity-progress-bar-full");
+      const spinner = document.querySelector('.spinner');
+
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        container.className = "unity-mobile";
+        config.devicePixelRatio = 1;
+      }
+      loadingCover.style.display = "";
+
+      const script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          spinner.style.display = "none";
+          progressBarEmpty.style.display = "";
+          progressBarFull.style.width = `${100 * progress}%`;
+        }).then((unityInstance) => {
+          loadingCover.style.display = "none";
+        }).catch((message) => {
+          alert(message);
+        });
+      };
+      document.body.appendChild(script);
+    </script>
+  </body>
+</html>
